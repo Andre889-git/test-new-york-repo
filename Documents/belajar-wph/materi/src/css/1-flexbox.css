@@ -1,0 +1,60 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+}
+
+.merah {
+  background-color: red;
+}
+
+.hijau {
+  background-color: green;
+}
+
+.biru {
+  background-color: blue;
+}
+
+body {
+  height: 100dvh;
+}
+
+/* FLEXBOX : FLEX CONTAINER */
+div.flex-container {
+  display: flex;
+  background-color: black;
+  height: 100dvh;
+
+  /* 1. FLEX DIRECTION : Menentukan Arah Konten */
+  /* 
+    flex-direction : row (default), column, row-reverse, column-reverse;
+  */
+  flex-direction: row;
+
+  /* 2. FLEX WRAP : Membungkus Konten agar tidak stretch */
+  /* 
+    flex-wrap : nowrap (default), wrap, wrap-reverse;
+  */
+  flex-wrap: nowrap;
+
+  /* 3. FLEX FLOW : Shortcut (shorthand) */
+  /* 
+    flex-flow : direction wrap;
+  */
+  /* flex-flow: row wrap; */
+
+  /* 4. JUSTIFY CONTENT : Mengatur distribusi ruang sepanjang MAIN axis (HORIZONTAL). */
+  /* 
+    justify-content : flex-start (default), flex-end, center, space-between, space-around, space-evenly
+  */
+  justify-content: flex-start;
+
+  /* ALIGN ITEMS : Mengatur distribusi ruang sepanjang CROSS axis (VERTICAL). */
+  /* 
+    align-items :  stretch (default) = normal, center, flex-start, flex-end, baseline;
+  */
+  /* align-items: center; */
+
+  /* GAP : Memberikan jarak antara elemen */
+  gap: 10px;
+}

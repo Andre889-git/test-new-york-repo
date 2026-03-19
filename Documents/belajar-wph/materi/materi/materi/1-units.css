@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. EM */
+.container-em {
+  font-size: 10px;
+}
+
+.item-em {
+  font-size: 2em;
+}
+
+/* 2. REM */
+.item-rem {
+  font-size: 3rem;
+}
+
+/* 3. VH/DVH dan VW/DVW */
+.container-viewport {
+  background-color: coral;
+  width: 80dvw;
+  height: 80dvh;
+}
+
+.item-viewport {
+  background-color: lightblue;
+  width: 80%;
+  height: 90%;
+}
+
+input {
+  width: 15ch;
+}

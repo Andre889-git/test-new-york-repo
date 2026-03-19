@@ -1,0 +1,46 @@
+.kotak {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin: 100px;
+}
+
+.muter {
+  animation: putar 3s linear infinite;
+}
+
+/* Keyframe nya */
+@keyframes putar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Ease */
+.kotak2 {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin: 100px;
+  animation: geser 2s infinite alternate;
+}
+
+.ease {
+  animation-timing-function: ease;
+}
+
+.custom {
+  animation-timing-function: cubic-bezier(0.97, 0.14, 0, 1.02);
+}
+
+@keyframes geser {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}

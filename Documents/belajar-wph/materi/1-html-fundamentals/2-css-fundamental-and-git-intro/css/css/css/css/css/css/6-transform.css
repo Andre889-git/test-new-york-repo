@@ -1,0 +1,33 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+.red:hover {
+  transform: rotate(45deg);
+  border: 10px solid black;
+}
+
+.blue {
+  background-color: blue;
+}
+.blue:hover {
+  transform: translate(100px, 50px);
+}
+
+.green {
+  background-color: green;
+}
+.green:hover {
+  transform: scale(2);
+}
+
+.pink {
+  background-color: pink;
+}
+.pink:hover {
+  transform: skewX(20deg);
+}

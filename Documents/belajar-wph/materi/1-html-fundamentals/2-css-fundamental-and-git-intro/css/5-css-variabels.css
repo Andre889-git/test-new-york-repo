@@ -1,0 +1,36 @@
+:root {
+  --primary: blue;
+  --secondary: gray;
+  --danger: red;
+  --warning: yellow;
+  --gradient-primary-apakek: linear-gradient(to right, blue, purple);
+
+  --light: white;
+  --dark: black;
+
+  --sm: 20px;
+  --md: 45px;
+  --lg: 50px;
+  --xl: 100px;
+}
+
+body {
+  color: var(--dark);
+}
+
+button {
+  background: var(--primary);
+}
+
+.card {
+  border: 2px solid var(--primary);
+}
+
+.link {
+  color: var(--primary);
+}
+
+h2 {
+  color: var(--light);
+  background: var(--gradient-primary-apakek);
+}

@@ -1,0 +1,24 @@
+body {
+    font-family: romans, sans-serif;
+    background-color:-moz-only-whitespace;
+    margin: 500px;
+    padding: 500px;
+}
+span {
+  background-color: red;
+  display: block;
+  height: 1000px;
+}
+
+p {
+  background-color: rgb(47, 0, 255);
+  height: 1000px;
+  display: inline;
+}
+
+strong {
+  background-color: blue;
+  color: white;
+  height: 1000px;
+  display: inline-block;
+}
